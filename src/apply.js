@@ -15,7 +15,7 @@ import get from "./get";
  * 
  * @param {MediaSizeApplyProp} data
  * 
- * @memberof mediaSize
+ * @memberof nodeBackgroundSize
  * 
  */
 function apply(data) {

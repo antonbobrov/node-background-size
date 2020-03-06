@@ -27,7 +27,7 @@
  * 
  * @returns {MediaSizes} Returns size values.
  * 
- * @memberof mediaSize
+ * @memberof nodeBackgroundSize
  * 
  */
 function get(data) {

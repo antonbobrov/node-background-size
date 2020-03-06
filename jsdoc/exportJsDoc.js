@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const fileName = 'dist/types/types.d.ts';
 // Change to the module name
-const str = 'export = mediaSize;\n\r';
+const str = 'export = nodeBackgroundSize;\n\r';
 
 const data = fs.readFileSync(fileName);
 const fd = fs.openSync(fileName, 'w+');

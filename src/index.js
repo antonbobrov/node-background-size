@@ -11,7 +11,7 @@ import apply from "./apply";
 /**
  * Imitate CSS background-size: cover|cover property in JavaScript.
  * 
- * @module mediaSize
+ * @module nodeBackgroundSize
  * @interface
  * @namespace
  * @author Anthony Bobrov {@link https://github.com/antonbobrov/node-background-size.git| GitHub}
