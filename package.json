@@ -1,6 +1,6 @@
 {
   "name": "node-background-size",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Imitate CSS background-size: cover|cover property in JavaScript",
   "main": "dist/index.js",
   "types": "./dist/types/types.d.ts",
