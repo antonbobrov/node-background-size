@@ -2,7 +2,8 @@ import get from "./get";
 
 /**
  * @typedef MediaSizeApplyProp
- * @augments MediaSizeCommonProp
+ * @memberof nodeBackgroundSize
+ * @augments nodeBackgroundSize.MediaSizeCommonProp
  * 
  * @property {HTMLElement} [parent] - Relative element to which the sizes will be calculated. 
  * If undefined, the direct parent will be taken.
@@ -13,7 +14,7 @@ import get from "./get";
  * @description Apply image/video sizes.
  * Note that the resources must be loaded before applying sizes to them.
  * 
- * @param {MediaSizeApplyProp} data
+ * @param {nodeBackgroundSize.MediaSizeApplyProp} data
  * 
  * @memberof nodeBackgroundSize
  * 

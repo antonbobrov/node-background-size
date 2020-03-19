@@ -3,6 +3,7 @@ import apply from "./apply";
 
 /**
  * @typedef MediaSizeCommonProp
+ * @memberof nodeBackgroundSize
  * @property {HTMLImageElement|HTMLVideoElement} media - Media element.
  * @property {'cover'|'contain'} [rule=cover] - Available values: cover, contain.
  * @property {number} [scale=1] - Scaling.

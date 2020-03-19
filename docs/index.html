@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Index</title>
+    
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/main.css">
+    
+    
+    <script>
+    var config = {"monospaceLinks":false,"cleverLinks":false,"referenceTitle":"My SDK Name","disableSort":false,"default":{"outputSourceFiles":false}};
+    </script>
+    
+
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html"></a></h3>
+    <button id="menuToggle" class="btn btn-link btn-lg menu-toggle">
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+    </button>
+    <div class="search">
+        <input id="search" type="text" class="form-control input-md" placeholder="Search...">
+    </div>
+    <ul class="list">
+    
+    
+        <li class="item" data-name="nodeBackgroundSize">
+            <span class="title namespace ">
+                
+                <span class="namespaceTag">
+                    <span class="glyphicon glyphicon-folder-open"></span>
+                </span>
+                
+                
+                    <a href="nodeBackgroundSize.html">nodeBackgroundSize</a>
+                
+            </span>
+            
+            <ul class="members itemMembers">
+            
+            </ul>
+            
+            <ul class="typedefs itemMembers">
+            
+            <span class="subtitle">Typedefs</span>
+            
+                <li class="parent" data-name="nodeBackgroundSize.MediaSizeApplyProp"><a href="nodeBackgroundSize.html#.MediaSizeApplyProp">MediaSizeApplyProp</a></li>
+            
+                <li class="parent" data-name="nodeBackgroundSize.MediaSizeCommonProp"><a href="nodeBackgroundSize.html#.MediaSizeCommonProp">MediaSizeCommonProp</a></li>
+            
+                <li class="parent" data-name="nodeBackgroundSize.MediaSizeGetProp"><a href="nodeBackgroundSize.html#.MediaSizeGetProp">MediaSizeGetProp</a></li>
+            
+                <li class="parent" data-name="nodeBackgroundSize.MediaSizes"><a href="nodeBackgroundSize.html#.MediaSizes">MediaSizes</a></li>
+            
+            </ul>
+            
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li class="parent  " data-name="nodeBackgroundSize.apply"><a href="nodeBackgroundSize.html#.apply">apply</a></li>
+            
+                <li class="parent  " data-name="nodeBackgroundSize.get"><a href="nodeBackgroundSize.html#.get">get</a></li>
+            
+            </ul>
+            
+            <ul class="events itemMembers">
+            
+            </ul>
+            
+        </li>
+    
+    </ul>
+</div>
+
+    <div class="main">
+        <h1 class="page-title" data-filename="index.html">Index</h1>
+        
+
+
+    
+
+
+    <h3> </h3>
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article class="readme content-size"><h1>Imitate CSS background-size: cover|cover property in JavaScript.</h1>
+<h2>How to start</h2>
+<pre class="prettyprint source lang-sh"><code>npm install node-background-size
+</code></pre>
+<h2>Example</h2>
+<pre class="prettyprint source lang-html"><code>&lt;div style=&quot;overflow: hidden&quot;>
+    &lt;img src=&quot;image.jpg&quot;>
+&lt;/div>
+</code></pre>
+<pre class="prettyprint source lang-js"><code>import { apply } from 'node-background-size';
+apply({
+    media: document.querySelector(&quot;img&quot;),
+    rule: 'cover',
+    scale: 1
+});
+</code></pre>
+<br>
+<hr>
+<br>
+<h2>Methods</h2>
+<br>
+<hr>
+<br>
+<h3>apply</h3>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Type</th>
+<th>Default</th>
+<th>Optional</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>media</td>
+<td>HTMLImageElement | HTMLVideoElement</td>
+<td></td>
+<td>+</td>
+<td>Media element.</td>
+</tr>
+<tr>
+<td>parent</td>
+<td>HTMLElement</td>
+<td></td>
+<td>+</td>
+<td>Relative element to which the sizes will be calculated. If undefined, the direct parent will be taken.</td>
+</tr>
+<tr>
+<td>rule</td>
+<td>'cover' | 'contain'</td>
+<td>'cover'</td>
+<td>+</td>
+<td>Available values: cover, contain.</td>
+</tr>
+<tr>
+<td>scale</td>
+<td>number</td>
+<td>1</td>
+<td>+</td>
+<td>Scaling.</td>
+</tr>
+</tbody>
+</table>
+<br>
+<hr>
+<br>
+<h3>get</h3>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Type</th>
+<th>Default</th>
+<th>Optional</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>media</td>
+<td>HTMLImageElement | HTMLVideoElement</td>
+<td></td>
+<td>+</td>
+<td>Media element.</td>
+</tr>
+<tr>
+<td>rule</td>
+<td>'cover' | 'contain'</td>
+<td>'cover'</td>
+<td>+</td>
+<td>Available values: cover, contain.</td>
+</tr>
+<tr>
+<td>scale</td>
+<td>number</td>
+<td>1</td>
+<td>+</td>
+<td>Scaling.</td>
+</tr>
+<tr>
+<td>width</td>
+<td>number</td>
+<td>500</td>
+<td>+</td>
+<td>Container width.</td>
+</tr>
+<tr>
+<td>height</td>
+<td>number</td>
+<td>500</td>
+<td>+</td>
+<td>Container height.</td>
+</tr>
+</tbody>
+</table>
+<h4>Returns</h4>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>media</td>
+<td>HTMLImageElement | HTMLVideoElement</td>
+<td>The media element itself.</td>
+</tr>
+<tr>
+<td>width</td>
+<td>number</td>
+<td>The calculated width.</td>
+</tr>
+<tr>
+<td>height</td>
+<td>number</td>
+<td>The calculated height.</td>
+</tr>
+<tr>
+<td>mediaWidth</td>
+<td>number</td>
+<td>The initial width of the media element.</td>
+</tr>
+<tr>
+<td>mediaHeight</td>
+<td>number</td>
+<td>The initial height of the media element.</td>
+</tr>
+<tr>
+<td>x</td>
+<td>number</td>
+<td>The x-axis coordinate of the top left corner.</td>
+</tr>
+<tr>
+<td>y</td>
+<td>number</td>
+<td>The y-axis coordinate of the top left corner.</td>
+</tr>
+<tr>
+<td>scale</td>
+<td>number</td>
+<td>Scaling.</td>
+</tr>
+</tbody>
+</table></article>
+    </section>
+
+
+
+
+
+
+        
+
+        <footer class="content-size">
+            <div class="footer">
+                Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Thu Mar 19 2020 20:10:50 GMT+0300 (Moscow Standard Time)
+            </div>
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

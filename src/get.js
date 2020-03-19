@@ -1,5 +1,6 @@
 /**
  * @typedef {object} MediaSizes
+ * @memberof nodeBackgroundSize
  * @property {HTMLImageElement|HTMLVideoElement} media - The media element itself.
  * @property {number} width - The calculated width.
  * @property {number} height - The calculated height.
@@ -12,7 +13,8 @@
 
 /**
  * @typedef MediaSizeGetProp
- * @augments MediaSizeCommonProp
+ * @memberof nodeBackgroundSize
+ * @augments nodeBackgroundSize.MediaSizeCommonProp
  * 
  * @property {number} [width=500] - Container width.
  * @property {number} [height=500] - Container height.
@@ -23,9 +25,9 @@
  * @description Get image/video size according to the CSS rules: cover|contain.
  * Note that the resources must be loaded before applying sizes to them.
  * 
- * @param {MediaSizeGetProp} data
+ * @param {nodeBackgroundSize.MediaSizeGetProp} data
  * 
- * @returns {MediaSizes} Returns size values.
+ * @returns {nodeBackgroundSize.MediaSizes} Returns size values.
  * 
  * @memberof nodeBackgroundSize
  * 
